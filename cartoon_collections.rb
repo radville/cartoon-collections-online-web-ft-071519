@@ -25,6 +25,7 @@ def find_the_cheese(cheeses)
   cheeses.each do |food|
     if cheese_types.include?(food)
       puts food
+      break
     end
   end
 end
