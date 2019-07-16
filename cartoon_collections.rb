@@ -10,7 +10,6 @@ def summon_captain_planet(array)
   new = []
   array.map do |call|
     new << call.capitalize + "!"
-    binding.pry
   end
   new
 end
