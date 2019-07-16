@@ -23,9 +23,9 @@ end
 def find_the_cheese(cheeses)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheeses.each do |food|
+    binding.pry
     if cheese_types.include?(food)
-      puts food
-      break
+      return food
     end
   end
 end
